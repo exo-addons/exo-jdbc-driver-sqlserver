@@ -37,12 +37,12 @@
     <maven.compiler.target>1.7</maven.compiler.target>
     <maven.compiler.source>1.7</maven.compiler.source>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <sqlserver.driver.version>4.2.6420.100</sqlserver.driver.version>
+    <sqlserver.driver.version>6.2.2.jre8</sqlserver.driver.version>
   </properties>
   <dependencies>
     <dependency>
-      <groupId>com.microsoft.jdbc</groupId>
-      <artifactId>sqljdbc42</artifactId>
+      <groupId>com.microsoft.sqlserver</groupId>
+      <artifactId>mssql-jdbc</artifactId>
       <version>${sqlserver.driver.version}</version>
       <scope>provided</scope>
     </dependency>
