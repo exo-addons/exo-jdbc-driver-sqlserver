@@ -23,7 +23,7 @@
   </parent>
   <groupId>org.exoplatform.addons.exo-jdbc-driver-sqlserver</groupId>
   <artifactId>exo-jdbc-driver-sqlserver</artifactId>
-  <version>1.0.x-SNAPSHOT</version>
+  <version>1.1.x-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>eXo Platform SQL Server driver</name>
   <description>eXo Platform SQL Server driver</description>
